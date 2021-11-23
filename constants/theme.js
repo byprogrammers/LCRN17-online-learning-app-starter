@@ -14,7 +14,9 @@ export const COLORS = {
     gray60: "#666666",
     gray70: "#4C4C4C",
     gray80: "#333333",
-    
+    gray85: "#242526",
+    gray90: "#191919",
+
     additionalColor4: "#C3C3C3",
     additionalColor9: "#F3F3F3",
     additionalColor11: "#F0FFFB",
@@ -66,6 +68,30 @@ export const FONTS = {
     body5: { fontFamily: "Roboto-Regular", fontSize: SIZES.body5, lineHeight: 22 },
 };
 
-const appTheme = { COLORS, SIZES, FONTS };
+export const darkTheme = {
+    name: "dark",
+    backgroundColor1: COLORS.gray85,
+    backgroundColor2: COLORS.gray90,
+    backgroundColor3: COLORS.gray90,
+    backgroundColor4: COLORS.primary,
+    textColor: COLORS.white,
+    textColor2: COLORS.white,
+    tintColor: COLORS.white,
+}
+
+export const lightTheme = {
+    name: "light",
+    backgroundColor1: COLORS.white,
+    backgroundColor2: COLORS.primary3,
+    backgroundColor3: COLORS.additionalColor11,
+    backgroundColor4: COLORS.white,
+    textColor: COLORS.black,
+    textColor2: COLORS.primary,
+    tintColor: COLORS.black,
+}
+
+export const selectedTheme = lightTheme
+
+const appTheme = { COLORS, SIZES, FONTS, darkTheme, lightTheme };
 
 export default appTheme;
