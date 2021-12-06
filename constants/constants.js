@@ -102,10 +102,73 @@ const bottom_tabs = [
     }
 ]
 
+const class_types = [
+    {
+        id: 0,
+        label: "All",
+        icon: require("../assets/icons/all.png")
+    },
+    {
+        id: 1,
+        label: "Staff Pick",
+        icon: require("../assets/icons/staff_pick.png")
+    },
+    {
+        id: 2,
+        label: "Original",
+        icon: require("../assets/icons/original.png")
+    },
+]
+
+const class_levels = [
+    {
+        id: 0,
+        label: "Beginner"
+    },
+    {
+        id: 1,
+        label: "Intermediate"
+    },
+    {
+        id: 2,
+        label: "Advanced"
+    }
+]
+
+const created_within = [
+    {
+        id: 0,
+        label: "All Time"
+    },
+    {
+        id: 1,
+        label: "This Month"
+    },
+    {
+        id: 2,
+        label: "This Week"
+    },
+    {
+        id: 3,
+        label: "This Day"
+    },
+    {
+        id: 4,
+        label: "2 Months"
+    },
+    {
+        id: 5,
+        label: "4 Months"
+    }
+]
+
 export default {
     register_options,
     walkthrough,
     categories,
     screens,
-    bottom_tabs
+    bottom_tabs,
+    class_types,
+    class_levels,
+    created_within
 }
