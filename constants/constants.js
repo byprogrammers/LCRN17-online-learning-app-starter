@@ -162,6 +162,21 @@ const created_within = [
     }
 ]
 
+const course_details_tabs = [
+    {
+        id: 0,
+        label: "Chapters",
+    },
+    {
+        id: 1,
+        label: "Files",
+    },
+    {
+        id: 2,
+        label: "Discussions",
+    }
+]
+
 export default {
     register_options,
     walkthrough,
@@ -170,5 +185,6 @@ export default {
     bottom_tabs,
     class_types,
     class_levels,
-    created_within
+    created_within,
+    course_details_tabs
 }

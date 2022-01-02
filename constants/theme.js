@@ -74,9 +74,23 @@ export const darkTheme = {
     backgroundColor2: COLORS.gray90,
     backgroundColor3: COLORS.gray90,
     backgroundColor4: COLORS.primary,
+    backgroundColor5: COLORS.gray85,
+    backgroundColor6: COLORS.black,
+    backgroundColor7: COLORS.gray90,
+    backgroundColor8: COLORS.gray70,
+    lineDivider: COLORS.gray70,
+    borderColor1: COLORS.gray70,
+    borderColor2: COLORS.gray70,
     textColor: COLORS.white,
     textColor2: COLORS.white,
+    textColor3: COLORS.gray40,
+    textColor4: COLORS.white,
+    textColor5: COLORS.gray30,
+    textColor6: COLORS.gray30,
+    textColor7: COLORS.gray40,
     tintColor: COLORS.white,
+    dotColor1: COLORS.white,
+    dotColor2: COLORS.primary,
 }
 
 export const lightTheme = {
@@ -85,12 +99,26 @@ export const lightTheme = {
     backgroundColor2: COLORS.primary3,
     backgroundColor3: COLORS.additionalColor11,
     backgroundColor4: COLORS.white,
+    backgroundColor5: COLORS.additionalColor13,
+    backgroundColor6: COLORS.primary3,
+    backgroundColor7: COLORS.white,
+    backgroundColor8: COLORS.gray10,
+    lineDivider: COLORS.gray20,
+    borderColor1: COLORS.white,
+    borderColor2: COLORS.black,
     textColor: COLORS.black,
     textColor2: COLORS.primary,
+    textColor3: COLORS.gray80,
+    textColor4: COLORS.white,
+    textColor5: COLORS.black,
+    textColor6: COLORS.gray,
+    textColor7: COLORS.black,
     tintColor: COLORS.black,
+    dotColor1: COLORS.gray20,
+    dotColor2: COLORS.primary3,
 }
 
-export const selectedTheme = lightTheme
+export const selectedTheme = darkTheme
 
 const appTheme = { COLORS, SIZES, FONTS, darkTheme, lightTheme };
 
